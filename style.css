@@ -50,6 +50,22 @@ nav a:hover {
     font-size: 18px;
     margin-bottom: 25px;
 }
+.explore-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.explore-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
 
 button {
     background-color: #2563eb;

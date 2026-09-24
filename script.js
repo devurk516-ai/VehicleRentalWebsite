@@ -226,4 +226,10 @@ document.getElementById("returnForm").addEventListener(
 
         document.getElementById("returnForm").reset();
     }
+    function goToVehicles() {
+    document.getElementById("vehicles").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+}
 );
